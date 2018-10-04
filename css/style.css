@@ -500,7 +500,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-blog,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 4em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -512,7 +512,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-blog,
   #fh5co-contact,
   #fh5co-footer {
-    padding: 3em 0;
+    padding: 2em 0;
   }
 }
 
@@ -542,7 +542,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: "Work Sans", Arial, sans-serif;
   width: 100%;
   font-weight: 400;
-  margin-bottom: .3em;
+  margin-bottom: 20px;
 }
 .fh5co-counters .fh5co-counter-label {
   color: rgba(0, 0, 0, 0.5);
@@ -1154,6 +1154,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-footer {
   background: #efefef;
+
 }
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
@@ -1605,7 +1606,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .row-pb-md {
-  padding-bottom: 4em !important;
+  padding-bottom: 1em !important;
 }
 
 .row-pb-sm {
@@ -1655,6 +1656,31 @@ h1, h2, h3, h4, h5, h6, figure {
 .head_title p{
   font-family: 'playfair_displayregular';
 }
+/* head1 */
+.head_title1{
+  margin-bottom:90px;
+}
+.head_title1 h3{
+  color:#413d4b;
+}
+.head_title1 p{
+  font-family: 'playfair_displayregular';
+}
+
+.head_title1{
+  margin-bottom:50px;
+  margin-top: 20px;
+}
+.head_title1 h3{
+  color:#413d4b;
+}
+.head_title1 p{
+  font-family: 'playfair_displayregular';
+
+}
+
+
+
 
 .contact{
   background: url(../images/contactbg.png) no-repeat center center;
@@ -1786,6 +1812,11 @@ h1, h2, h3, h4, h5, h6, figure {
 .team .single_team_content .single_team_text_overlay .team_overlay_socail a:hover i{
   background: #fff;
   color:#ff7200;
+}
+
+.nametag{
+  background: #828282;
+  margin: 2px;
 }
 
 
