@@ -564,6 +564,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   padding-left: 40px;
   font-size: 20px;
+  color: white;
 }
 .mt h4 i {
   position: absolute;
