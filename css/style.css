@@ -1724,3 +1724,68 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
+/* team */
+.team{
+  color:#fff;
+}
+
+.team .single_team_content{
+  margin-top:30px;
+  transition: all .6s;
+}
+
+
+.team .single_team_content .single_team_img img{
+  width:70%;
+  transition: 0.6s;
+  margin-bottom: 15px;
+
+}
+.team .single_team_content .single_team_img{
+  position: relative;
+
+
+}
+.team .single_team_content:hover .single_team_img img{
+  transform: scale(1.05);
+
+
+}
+.team .single_team_content:hover .single_team_text_overlay{
+  opacity: 1;
+}
+.team .single_team_content .single_team_text_overlay{
+  position: absolute;
+  left: 15%;
+  top: 30%;
+  background: rgba(255, 114, 0, 0.75);
+  padding: 10px 20px;
+  width:70%;
+  opacity:0;
+  transition: all 0.6s;
+}
+.team .single_team_content .single_team_text_overlay h4{
+  margin-bottom: 0rem;
+  display: inline-block;
+
+
+}
+.team .single_team_text_overlay .team_overlay_socail{
+  margin-top:40px;
+}
+.team .single_team_content .single_team_text_overlay .team_overlay_socail a i{
+  border:1px solid #fff;
+  color:#fff;
+  width:70px;
+  height: 30px;
+  text-align: left;
+  line-height: 30px;
+  display: inline-block;
+  transition: all .6s;
+}
+.team .single_team_content .single_team_text_overlay .team_overlay_socail a:hover i{
+  background: #fff;
+  color:#ff7200;
+}
+
+
